@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Socket.IO chat</title>
+    <style>
+        .container {
+            height: 100%;
+            width: 100%;
+        }
+
+        .join {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            background-color: green;
+            color: white;
+            padding: 0;
+            margin: 0;
+            left: 0;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <canvas id="canvas">
+
+        </canvas>
+        <button class="join">
+            Join
+        </button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+    
+    
+</body>
+
+</html>
